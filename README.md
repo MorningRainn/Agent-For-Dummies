@@ -1,7 +1,7 @@
-# 🤖 Agent For Dummies：AI应用/Agent/RAG学习20分钟极速入门傻瓜笔记 🚀
+# 🤖 Agent For Dummies：AI应用/Agent/RAG学习20分钟极速入门傻瓜笔记/八股 🚀
 
 <p center>
-  <strong>傻瓜都能看懂的20分钟极速入门agent/RAG/AI应用</strong>
+  <strong>傻瓜都能看懂的20分钟极速入门agent/RAG/AI应用、20分钟面试前AI应用/Agent/后端/计算机基础八股速成</strong>
 </p>
 
 [English Edition](README_EN.md) | [🗺️ 极速通关地图](#-极速通关地图) | [📚 补充知识库](docs/08-supplementary-notes/00-index.md)
@@ -38,14 +38,14 @@
 
 | 序号 | 章节 | 读完能去跟人吹什么牛 / 解决什么问题 |
 | :---: | :--- | :--- |
-| **01** | 🤖 [Agent 到底是什么](docs/01-agent-essentials.md) | 一文看懂大脑（LLM）、记忆、规划、工具怎么拼成 Agent！ReAct、工作流、多 Agent 怎么选？ |
-| **02** | 🛠️ [工具、MCP 与 Skills](docs/02-tools-mcp-and-skills.md) | AI 为什么能帮我发邮件、做 Excel？彻底搞懂 Function Calling、MCP 和 Skill 的区别！ |
-| **03** | 🔍 [RAG 与检索](docs/03-rag-and-retrieval.md) | 给大模型喂外挂知识库！文档切片、向量召回、重排（Rerank）的全链路避坑指南。 |
-| **04** | 🧠 [上下文工程与提示词](docs/04-context-engineering-and-prompting.md) | 如何让 Agent 记住核心重点，又不至于把上下文窗口（Context Window）挤爆？ |
-| **05** | 🎛️ [模型适配与微调](docs/05-fine-tuning-and-adaptation.md) | 别动不动就训练大模型！什么时候该微调？LoRA、QLoRA、DPO 到底在调什么？ |
+| **01** | 🤖 [Agent 到底是什么](docs/01-agent-essentials.md) | 一文速懂 Agent！ReAct、工作流、多 Agent 架构和框架有什么？ |
+| **02** | 🛠️ [工具、MCP 与 Skills](docs/02-tools-mcp-and-skills.md) | 彻底搞懂 Function Calling、MCP 和 Skill 的区别！ |
+| **03** | 🔍 [RAG 与检索](docs/03-rag-and-retrieval.md) | RAG 文档切片、向量召回、重排（Rerank）的全链路图文指南。 |
+| **04** | 🧠 [上下文工程与提示词](docs/04-context-engineering-and-prompting.md) | Agent实战干货教程/八股 |
+| **05** | 🎛️ [模型适配与微调](docs/05-fine-tuning-and-adaptation.md) | 什么时候该微调？LoRA、QLoRA、DPO 到底在调什么？ |
 | **06** | ⚡ [大模型与 AI 基础](docs/06-llm-and-ai-basics.md) | Token、Attention、采样参数（Temperature）、向量... 扫盲大模型高频底层概念。 |
-| **07** | 👁️ [模型与多模态](docs/07-models-and-multimodality.md) | BERT、LLaMA、ViT、CLIP、InternVL... 这些神仙模型到底各有啥绝活？ |
-| **08** | 📚 [其他补充知识索引](docs/08-supplementary-notes/00-index.md) | 后端急救包！需要 Transformer、SQL/ES、Redis、网络知识时随查随用。 |
+| **07** | 👁️ [模型与多模态](docs/07-models-and-multimodality.md) | 常见大模型BERT、LLaMA、ViT、CLIP、InternVL...  |
+| **08** | 📚 [其他补充知识索引](docs/08-supplementary-notes/00-index.md) | 需要 Transformer、SQL/ES、Redis、网络知识时随查随用。临近面试八股速背 |
 
 ---
 
@@ -55,7 +55,7 @@
 
 * **⚡agent最重点**
   👉 读 `01` → `02` → `03`。迅速搞懂 Agent 是怎么循环运行、怎么调工具、怎么查知识库的。20分钟背完开面！
-* **🚑 想了解后端八股 or 其他 **  
+* **🚑 想了解后端八股 or 计算机基础八股 or 大模型学习其他内容 **  
   👉  [补充知识索引](docs/08-supplementary-notes/00-index.md) 
 
 ---
@@ -66,7 +66,7 @@
 .
 ├── 📁 docs/                         # 核心知识库
 │   ├── 01-07                        # 🎯 主线：Agent 与 AI 应用核心硬核干货
-│   └── 08-supplementary-notes/      # 📚 补充：NLP、检索、后端与计算机基础工具箱
-├── 📁 assets/                       # 🎨 笔记专属概念图示与架构图
+│   └── 08-supplementary-notes/      # 📚 补充：大模型、后端与计算机基础工具箱
+├── 📁 assets/                       # 🎨 笔记插图
 ├── 📄 README.md                     # 👈 当前页面 (中文版)
 └── 📄 README_EN.md                  # 🌐 English Edition
