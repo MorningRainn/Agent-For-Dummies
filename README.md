@@ -1,7 +1,7 @@
-# 🤖 Agent For Dummies：AI应用/Agent/RAG学习20分钟极速入门笔记 🚀
+# 🤖 Agent For Dummies：AI应用/Agent/RAG学习20分钟极速入门傻瓜笔记 🚀
 
 <p center>
-  <strong>20分钟极速入门agent/RAG/AI应用</strong>
+  <strong>傻瓜都能看懂的20分钟极速入门agent/RAG/AI应用</strong>
 </p>
 
 [English Edition](README_EN.md) | [🗺️ 极速通关地图](#-极速通关地图) | [📚 补充知识库](docs/08-supplementary-notes/00-index.md)
@@ -10,6 +10,14 @@
 [![Format](https://img.shields.io/badge/Format-Markdown-334155?style=for-the-badge&logo=markdown)](docs/)
 [![Audience](https://img.shields.io/badge/For-Beginners%20%26%20Busy%20Brains-f97316?style=for-the-badge&logo=lightning)](README.md#-适合谁看)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.style=for-the-badge)](README.md#-贡献与校正)
+
+---
+## 🎯 适合谁看？
+
+- 🙋‍♂️ **想动手做 Agent 的初学者**：太专业的教程一下子看不进去？先来看傻瓜教程吧。
+- 🤯 **还有20分钟就要面试想要迅速了解内容补充八股知识的速成er**：精炼、短、只挑重点。背就完了
+- ⚡ **ADHD / 容易注意力分散的傻瓜**：我就是傻瓜，太难的名词看不懂、太长的文章看不进去，完全傻瓜友好。
+- 🧱 **想补齐底层脚手架的全栈/小白**：需要把大模型、计算机网络、后端和向量检索串成一张清晰的知识网。
 
 ---
 
@@ -23,27 +31,8 @@
 
 > ⚠️ **严正声明**：如果笔记里出现任何一个未被解释的怪异缩写，请把它当成 Bug 抓出来，欢迎大家一起补充和指正
 
----
 
-## 🎯 适合谁看？
-
-- 🙋‍♂️ **想动手做 Agent 的初学者**：不满足于只跟 ChatGPT 聊天，想让 AI 学会“自己动脑、自己查资料、自己调用工具打工”。
-- 🤯 **被技术黑话淹没的折腾党**：听说过一堆名词，但分不清 Function Calling、MCP 和 Skill 到底啥区别。
-- ⚡ **ADHD / 容易注意力分散的傻瓜**：我就是傻瓜，太难的名词看不懂、太长的文章看不进去，只看
-- 🧱 **想补齐底层脚手架的全栈/小白**：需要把大模型、计算机网络、后端和向量检索串成一张清晰的知识网。
-
----
-
-## 💡 本笔记的“反骨”特色
-
-- 💬 **讲人话，拒绝硬背**：少一点“公式与定义”，多一点“它在系统里到底扮演什么角色”。
-- 🧩 **先有地图，再填细节**：不一上来就扔代码，先让你知道整体架构长啥样，再按图索骥。
-- 🛠️ **框架中立，教你底层**：不捆绑某个特定框架（今天叫这个 API，明天可能就废弃了），我们重点吃透可迁移的核心概念。
-- 🚀 **极速查阅，随用随翻**：这是你的 AI 应用开发工具箱，不是一门需要打卡考勤的期末必修课。
-
----
-
-## 🗺️ 极速通关地图
+## 🗺️ 笔记地图
 
 不必像背课本一样从头读到尾！看标题，挑你现在最困惑的点直接戳进去👇
 
