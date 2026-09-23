@@ -1,93 +1,47 @@
-# 🤖 Agent For Dummies: a 20-Minute, No-Nonsense Introduction to AI Apps, Agents, RAG, and Interview Essentials 🚀
+# 🤖 Agent For Dummies
 
-<p align="center">
-  <strong>A fast, plain-English guide to agents, RAG, AI applications, and the backend or CS interview essentials that tend to show up twenty minutes before the interview.</strong>
-</p>
+> Fast personal notes on AI applications, agents, RAG, LLMs, and the computer-science basics around them.
 
-[简体中文](README.md) | [🗺️ Fast-Track Map](#-the-note-map) | [📚 Supplementary Notes](docs/08-supplementary-notes/00-index.md)
+[简体中文](README.md) | [Start with Agents](docs/01-Agent基础与进阶.md) | [Contents](#contents)
 
-[![Language](https://img.shields.io/badge/Language-English-0f766e?style=for-the-badge&logo=github)](README_EN.md)
-[![Format](https://img.shields.io/badge/Format-Markdown-334155?style=for-the-badge&logo=markdown)](docs/)
-[![Audience](https://img.shields.io/badge/For-Beginners%20%26%20Busy%20Brains-f97316?style=for-the-badge&logo=lightning)](#-who-is-this-for)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](#-contribute-and-correct)
+This is not a course you must finish in order. It is a practical set of notes for beginners, busy builders, and easily distracted minds: understand how an agent works first, then open the note that answers the question in front of you.
 
----
+## Start Here
 
-## 🎯 Who Is This For?
+For the shortest path to agents:
 
-- 🙋 **Agent beginners**: the heavyweight tutorials make your eyes glaze over? Start with the dummy-friendly version.
-- 🤯 **Last-minute crammers**: an interview is twenty minutes away and you need the useful vocabulary, fast. This is concise, selective, and built for review.
-- ⚡ **ADHD / easily distracted readers**: dense terminology and long articles are exhausting. These notes aim to explain the terms in place and keep the route short.
-- 🧱 **Full-stack learners filling in the scaffolding**: connect LLMs, networking, backend services, and vector retrieval into one useful mental model.
+`01 Agents` → `02 Tool Calling` → `03 RAG`
 
----
+For LLM foundations, read `04 Transformer`, `05 Fine-Tuning`, `06 Common AI Concepts`, and `07 Common Models`.
 
-### 💡 Why Does This Repository Exist?
+For backend or computer-science review, jump straight to `08` through `11`. No linear reading required.
 
-> *"RAG, MCP, Function Calling, LoRA, Vector DB, Context Window... why does the AI world mint a new acronym every morning?"*
+## Contents
 
-These are the concise notes I wish I had while learning: the basic concepts behind agents and LLM applications, explained in ordinary language before the jargon takes over.
+| No. | Note | Covers |
+| --- | --- | --- |
+| 01 | [Agent Fundamentals and Beyond](docs/01-Agent基础与进阶.md) | Agent concepts, architecture, ReAct, workflows, multi-agent systems, and common frameworks. |
+| 02 | [Function Calling, MCP, and Skills](docs/02-Function%20Calling,Mcp,Skills.md) | How models call tools and what each approach is for. |
+| 03 | [RAG](docs/03-RAG.md) | Chunking, vector retrieval, reranking, and the RAG pipeline. |
+| 04 | [Transformer Fundamentals](docs/04-Transfomer基础.md) | Attention, QKV, Encoder/Decoder, and the basics. |
+| 05 | [Fine-Tuning](docs/05-模型微调.md) | Fine-tuning, LoRA, QLoRA, and DPO. |
+| 06 | [Common AI Concepts](docs/06-常用%20AI%20概念.md) | Evaluation, tokens, sampling, embeddings, and other frequent terms. |
+| 07 | [Common Foundation Models](docs/07-常见大模型.md) | An overview of LLMs, VLMs, and common models. |
+| 08 | [Machine Learning](docs/08-机器学习.md) | Clustering, classification, regression, and ensemble methods. |
+| 09 | [Elasticsearch](docs/09-Elasticsearch.md) | Elasticsearch, MySQL, and search fundamentals. |
+| 10 | [Full-Stack Basics](docs/10-全栈基础.md) | Web basics, Redis, FastAPI, and related tools. |
+| 11 | [Operating Systems and Networks](docs/11-操作系统、计网.md) | TCP/IP, HTTP, processes, threads, and coroutines. |
+| 12 | [VLM Evaluation](docs/12-VLM评测.md) | Multimodal and autonomous-driving evaluation metrics. |
 
-There are no hundred-page slide decks or obligatory math detours. Start by building a **usable map of the system**, then open the details only when you need them.
+## How to Use These Notes
 
-> ⚠️ **Bug-report policy**: if an unexplained acronym sneaks into a note, please treat it as a bug. Issues and corrections are welcome.
+- New to agents: start with `01`.
+- Wondering how AI reaches external services: read `02`.
+- Building a knowledge base for a model: read `03`.
+- Stuck on a term: jump to the matching note. There is no final exam.
 
-## 🗺️ The Note Map
+## Notes
 
-Do not read this like a textbook from cover to cover. Pick the question that is bothering you today and jump in.
+These are personal learning notes and may contain omissions or outdated material. Issues and pull requests for corrections or clearer explanations are welcome.
 
-| No. | Topic | What you can explain afterwards |
-| :---: | :--- | :--- |
-| **01** | 🤖 [What Is an Agent?](docs/01-agent-essentials.md) | How do an LLM, memory, planning, and tools combine into an agent? When should you use ReAct, a workflow, or multi-agent systems? |
-| **02** | 🛠️ [Tools, MCP, and Skills](docs/02-tools-mcp-and-skills.md) | Why can AI send email or edit a spreadsheet? What is the actual difference among Function Calling, MCP, and Skills? |
-| **03** | 🔍 [RAG and Retrieval](docs/03-rag-and-retrieval.md) | How do you give an LLM an external knowledge base? Learn the whole path from chunks and vector search to reranking. |
-| **04** | 🧠 [Context Engineering and Prompting](docs/04-context-engineering-and-prompting.md) | How can an agent retain the important facts without packing its context window past capacity? |
-| **05** | 🎛️ [Model Adaptation and Fine-Tuning](docs/05-fine-tuning-and-adaptation.md) | Do not train a giant model by reflex. When is fine-tuning warranted, and what do LoRA, QLoRA, and DPO actually adjust? |
-| **06** | ⚡ [LLM and AI Basics](docs/06-llm-and-ai-basics.md) | Tokens, attention, sampling parameters, embeddings, and other high-frequency LLM concepts. |
-| **07** | 👁️ [Models and Multimodality](docs/07-models-and-multimodality.md) | What are BERT, LLaMA, ViT, CLIP, and InternVL each good at? |
-| **08** | 📚 [Supplementary Notes Index](docs/08-supplementary-notes/00-index.md) | A just-in-time reference for Transformers, SQL/Elasticsearch, Redis, backend work, networking, operating systems, and ML. |
-
----
-
-## 🍽️ Choose Your Route
-
-Pick the route that matches your current energy level:
-
-- **⚡ I only need the agent essentials**
-  Read `01` → `02` → `03`. In about twenty minutes, understand the agent loop, tool use, and knowledge retrieval.
-- **🚑 I need backend or computer-science review**
-  Open the [Supplementary Notes Index](docs/08-supplementary-notes/00-index.md). It is a toolbox, not a course you must finish in order.
-
-## 📂 Repository Layout
-
-```text
-.
-├── docs/                         # Core knowledge base
-│   ├── 01-07                     # Main route: agents and LLM applications
-│   └── 08-supplementary-notes/   # Transformers, ML, backend, and CS essentials
-├── assets/                       # Diagrams used by the notes
-├── README.md                     # Chinese edition
-└── README_EN.md                  # English edition
-```
-
-## 🤝 Contribute and Correct
-
-AI changes faster than the bookmarks folder. Please open an Issue or Pull Request when you find:
-
-- an incorrect or unclear explanation;
-- an outdated API or concept;
-- a more vivid plain-language explanation.
-
-Help make this a better first agent lesson for newcomers and distractible brains alike.
-
----
-
-## 🖼️ Images and Attribution
-
-`assets/` contains only diagrams referenced by these notes. Some images may belong to their original creators and are retained for learning context. The repository license covers the author's original writing only; it does not automatically grant permission to redistribute third-party images. Please confirm the original license before public reuse.
-
----
-
-## 📜 License
-
-The original written notes are available under [CC BY 4.0](LICENSE). Reuse, adapt, and share them freely with attribution.
+Original writing is available under [CC BY 4.0](LICENSE). Some images in `assets/` may belong to their original creators; please confirm their licenses before public reuse.

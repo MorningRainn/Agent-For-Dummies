@@ -1,15 +1,4 @@
-# SQL 与 Elasticsearch：数据存储与搜索怎么分工
 
-## SQL 常见语法
-```sql
-SELECT 姓名，班级，成绩 
-FROM students 
-WHERE 班级=‘1年级2班’
-LIMIT 5 
-OFFSET 5;
-```
->1. students：表名
->2. OFFSET：
 #### Elasticsearch 和 MySQL
 mysql就像书架，找某个东西要一排一排找，ES就像图书馆管理系统，搜索某个书它立马就能告诉书在哪，还会把最相关的排在最前面
 - Elasticsearch：数据检索与分析，**速度、灵活**，数据以json格式存储
@@ -40,3 +29,15 @@ ES分布式搜索引擎，介于应用和数据之间，检索海量数据。可
 	1. 查倒排索引表（类似 HashMap）
 	2. 拿到 DocID 列表
 	3. 直接取文档
+
+
+#### SQL 常见语法
+```sql
+SELECT 姓名，班级，成绩 
+FROM students 
+WHERE 班级=‘1年级2班’
+LIMIT 5 
+OFFSET 5;
+```
+>1. students：表名
+>2. OFFSET：

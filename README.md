@@ -1,98 +1,47 @@
-# 🤖 Agent For Dummies：自己整理的Agent/RAG学习极速入门笔记/八股 🚀
+# 🤖 Agent For Dummies
 
-<p center>
-  <strong>极速入门agent/RAG/AI应用、20分钟面试前AI应用/Agent/后端/计算机基础八股速成</strong>
-</p>
+> AI 应用、Agent、RAG 极速入门，以及大模型与计算机基础的个人笔记。
 
-[English Edition](README_EN.md) | [🗺️ 极速通关地图](#-极速通关地图) | [📚 补充知识库](docs/08-supplementary-notes/00-index.md)
+[English](README_EN.md) | [从 Agent 开始](docs/01-Agent基础与进阶.md) | [全部目录](#目录)
 
-[![Language](https://img.shields.io/badge/Language-中文-0f766e?style=for-the-badge&logo=github)](README.md)
-[![Format](https://img.shields.io/badge/Format-Markdown-334155?style=for-the-badge&logo=markdown)](docs/)
-[![Audience](https://img.shields.io/badge/For-Beginners%20%26%20Busy%20Brains-f97316?style=for-the-badge&logo=lightning)](README.md#-适合谁看)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.style=for-the-badge)](README.md#-贡献与校正)
+这不是一套需要按时打卡的课程。它是给初学者、赶项目的人和注意力容易跑偏的人准备的速查笔记：先搞清楚 Agent 怎么工作，卡在哪里就翻哪一篇。
 
----
-## 🎯 适合谁看？
+## 从这里开始
 
-- 🙋‍♂️ **想动手做 Agent 的初学者**：太专业的教程一下子看不进去的
-- 🤯 **还有20分钟就要面试想要迅速了解内容补充八股知识的速成er**：背就完了
-- ⚡ **ADHD / 容易注意力分散的傻瓜**：太难的名词看不懂、太长的文章看不进去，完全傻瓜友好。
-- 🧱 **想补齐底层脚手架的全栈/小白**：需要把大模型、计算机网络、后端和向量检索串成一张清晰的知识网。
+想快速理解 Agent，按这个顺序读：
 
----
+`01 Agent` → `02 工具调用` → `03 RAG`
 
-### 💡 为什么有这个仓库？
+想补大模型基础：读 `04 Transformer`、`05 微调`、`06 常用 AI 概念`、`07 常见模型`。
 
-> *自己大三找实习的时候记录的笔记*
+想临时补后端或计算机基础：直接打开 `08` 到 `11`，不需要从头学起。
 
-这是一份我在初学的时候给自己的防止遗忘的简洁版笔记：**把看似高大上的 Agent 和大模型技术的基本概念和人话版讲解记录下来** 
+## 目录
 
-这里没有 100 页的干瘪 PPT，也没有长篇大论的数学公式推导。
+| 编号 | 笔记 | 主要内容 |
+| --- | --- | --- |
+| 01 | [Agent 基础与进阶](docs/01-Agent基础与进阶.md) | Agent 概念、架构、ReAct、工作流、多 Agent 与常见框架。 |
+| 02 | [Function Calling、MCP、Skills](docs/02-Function%20Calling,Mcp,Skills.md) | 模型怎样调用工具，以及三者分别解决什么问题。 |
+| 03 | [RAG](docs/03-RAG.md) | 文档切分、向量检索、重排与 RAG 流程。 |
+| 04 | [Transformer 基础](docs/04-Transfomer基础.md) | Attention、QKV、Encoder/Decoder 等基础。 |
+| 05 | [模型微调](docs/05-模型微调.md) | 微调、LoRA、QLoRA、DPO。 |
+| 06 | [常用 AI 概念](docs/06-常用%20AI%20概念.md) | 评估、Token、采样、Embedding 等高频概念。 |
+| 07 | [常见大模型](docs/07-常见大模型.md) | LLM、VLM 与常见模型速览。 |
+| 08 | [机器学习](docs/08-机器学习.md) | 聚类、分类、回归、集成学习等。 |
+| 09 | [Elasticsearch](docs/09-Elasticsearch.md) | Elasticsearch、MySQL 与检索基础。 |
+| 10 | [全栈基础](docs/10-全栈基础.md) | Web、Redis、FastAPI 等常用知识。 |
+| 11 | [操作系统、计网](docs/11-操作系统、计网.md) | TCP/IP、HTTP、进程、线程、协程。 |
+| 12 | [VLM 评测](docs/12-VLM评测.md) | 多模态与自动驾驶相关评测指标。 |
 
-> ⚠️ **严正声明**：如果笔记里出现任何一个未被解释的怪异缩写，请把它当成 Bug 抓出来，欢迎大家一起补充和指正
+## 使用方式
 
+- 不懂 Agent：从 `01` 开始。
+- 不懂 AI 为什么能调用外部服务：看 `02`。
+- 想给模型接自己的资料：看 `03`。
+- 遇到陌生名词：按目录直接跳转，没有考试。
 
-## 🗺️ 笔记地图
+## 说明
 
-👇👇👇
+这是边学边整理的个人笔记，可能存在遗漏或过时内容。欢迎通过 Issue 或 Pull Request 补充、纠错或提供更好懂的解释。
 
-| 序号 | 章节 | 读完能去跟人吹什么牛 / 解决什么问题 |
-| :---: | :--- | :--- |
-| **01** | 🤖 [Agent 概念、架构、框架](docs/01-agent-essentials.md) | 一文速懂 Agent！ReAct、工作流、多 Agent 架构和框架有什么？ |
-| **02** | 🛠️ [MCP 与 Skills](docs/02-tools-mcp-and-skills.md) | 彻底搞懂 Function Calling、MCP 和 Skill 的区别！ |
-| **03** | 🔍 [RAG ](docs/03-rag-and-retrieval.md) | RAG 文档切片、向量召回、重排（Rerank）的全链路图文指南。 |
-| **04** | 🧠 [上下文工程与提示词](docs/04-context-engineering-and-prompting.md) | Agent实战干货教程/八股 |
-| **05** | 🎛️ [模型微调](docs/05-fine-tuning-and-adaptation.md) | 什么时候该微调？LoRA、QLoRA、DPO 到底在调什么？ |
-| **06** | ⚡ [大模型与 AI 基础常见概念汇总](docs/06-llm-and-ai-basics.md) | Token、Attention、采样参数（Temperature）、向量... 扫盲大模型高频底层概念。 |
-| **07** | 👁️ [模型与多模态](docs/07-models-and-multimodality.md) | 常见大模型BERT、LLaMA、ViT、CLIP、InternVL...  |
-| **08** | 📚 [其他补充知识索引](docs/08-supplementary-notes/00-index.md) | 需要 Transformer、SQL/ES、Redis、网络知识时随查随用。临近面试八股速背 |
-
----
-
-## 🍽️ 食用指南
-
-根据你现在的状态，选择最舒服的阅读姿势：
-
-* **⚡agent最重点**
-  👉 读 `01` → `02` → `03`
-* **🚑 想了解后端八股 or 计算机基础八股 or 大模型学习其他内容 **  
-  👉  [补充知识索引](docs/08-supplementary-notes/00-index.md) 
-
----
-
-## 📂 仓库骨架
-
-```text
-.
-├── 📁 docs/                         # 核心知识库
-│   ├── 01-07                        # 🎯 主线：Agent 与 AI 应用
-│   └── 08-supplementary-notes/      # 📚 补充：大模型、后端与计算机基础补充
-├── 📁 assets/                       # 🎨 笔记插图
-├── 📄 README.md                     # 👈 当前页面 (中文版)
-└── 📄 README_EN.md                  # 🌐 English Edition
-```
-
-
-
-## 🤝 贡献与校正
-
-笔记是自己边学边整理的，难免有疏漏或过时的地方。如果你发现：
-
-- ❌ 哪里的解释有错或者写得不够明白；
-- ⌛ 哪个技术点的 API 或概念已经过时了；
-- 💡 有更生动有趣的“人话”解释方式。
-
-**非常欢迎提交 Issue 或 Pull Request！** 
-
----
-
-## 🖼️ 图片与署名声明
-
-`assets/` 目录下仅保留了笔记实际引用的示意图，用于辅助上下文理解。部分图片版权可能属于原作者。本仓库的开源许可证仅覆盖作者原创文字内容，不自动授予第三方图片的再授权。若需公开复用相关图片，请先确认原作者授权。
-
----
-
-## 📜 许可证 (License)
-
-本仓库的原创文字内容采用 [CC BY 4.0 (知识共享署名 4.0 国际许可协议)](LICENSE) 发布。  
-只要保留原作者署名，欢迎自由转载、改编和引用！
+笔记原创文字采用 [CC BY 4.0](LICENSE) 发布。`assets/` 中的部分图片可能属于原作者，公开复用前请确认其授权。
